@@ -1,7 +1,28 @@
 #ex1-container {
   width: 100%;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#ex1-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ex1-content > h2,
+#ex1-content > button {
+  margin-bottom: 1rem;
+}
+
+.ex1-answers {
+  background-color: #1a1a1a;
+  color: green;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  font-weight: 1em;
+  padding: 0.6em 1.2em;
+  font-weight: bold;
 }
